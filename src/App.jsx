@@ -1,6 +1,7 @@
 import PassingProps from "./components/PassingProps";
 import LeftRight from "./components/LeftRight";
 import ConditionalRendering from "./components/ConditionalRendering";
+import RespondingEvents from "./components/RespondingEvents";
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
       {/* <PassingProps />
       <hr />
       <LeftRight /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <RespondingEvents />
     </div>
   );
 }
