@@ -1,17 +1,21 @@
-import PassingProps from "./components/PassingProps";
-import LeftRight from "./components/LeftRight";
-import ConditionalRendering from "./components/ConditionalRendering";
-import RespondingEvents from "./components/RespondingEvents";
+import DrinkList from "./components/conditional-rendering/drink-list";
+import LightSwitch from "./components/interactivity/light-switch";
+import ColorSwitchApp from "./components/interactivity/color-switch-app";
 
 function App() {
-
   return (
     <div>
-      {/* <PassingProps />
+      <h1>Conditional Rendering</h1>
+      <DrinkList />
+
       <hr />
-      <LeftRight /> */}
-      {/* <ConditionalRendering /> */}
-      <RespondingEvents />
+
+      <h1>Adding interactivity</h1>
+      <h3>Light Switch exercise</h3>
+      <LightSwitch />
+
+      <h3>Color Switch exercise</h3>
+      <ColorSwitchApp />
     </div>
   );
 }
